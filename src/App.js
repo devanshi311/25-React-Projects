@@ -1,15 +1,19 @@
 import './App.css';
-import Accordion  from './components/accordian';
 import './components/accordian/data'
+import Accordion  from './components/accordian';
+import StarRating from './components/star-ratings';
 import RandomColor from './components/random-color';
 function App() {
   return (
     <div className='App'>
      {/* accordian function */}
-     <Accordion/>
+     {/* <Accordion/> */}
 
      {/* Random color components */}
-     <RandomColor/>
+     {/* <RandomColor/> */}
+
+     {/* Star-ratings */}
+     <StarRating noOfStars={10}/>
     </div>
   );
 } 
