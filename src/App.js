@@ -8,6 +8,6 @@ function App() {
      <Accordion/>
     </div>
   );
-}
+} 
 
 export default App;
