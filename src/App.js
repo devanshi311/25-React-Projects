@@ -1,8 +1,8 @@
 import './App.css';
 import './components/accordian/data'
-import Accordion  from './components/accordian';
+// import Accordion  from './components/accordian';
 import StarRating from './components/star-ratings';
-import RandomColor from './components/random-color';
+// import RandomColor from './components/random-color';
 function App() {
   return (
     <div className='App'>
